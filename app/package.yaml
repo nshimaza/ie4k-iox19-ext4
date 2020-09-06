@@ -15,7 +15,7 @@ app:
       ports: {}
     profile: custom
   startup:
-    rootfs: rootfs.ext4
+    rootfs: rootfs.img
     target:
     - /bin/sh
     - /usr/local/bin/sleep.sh
